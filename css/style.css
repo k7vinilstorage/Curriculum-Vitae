@@ -1,0 +1,66 @@
+* {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html {
+    background-color: #DCCCAC;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+h1 {
+    font-family: "Nabla", system-ui;
+    text-decoration-line: underline;
+    color: #546B41;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: oblique;
+    color: #FFF8EC;
+    background-color: #27391C;
+    width: 100%;
+    text-align: center;
+}
+
+#pfp {
+    border-radius: 400px;
+}
+
+a[href="torezan@alunos.utfpr.edu.br"] {
+    color: #27391C;
+}
+
+a[href="https://www.linkedin.com/in/jatorezan/"] {
+    color: #27391C;
+}
+
+a:hover {
+    color: red;
+    font-style: italic;
+}
+
+.text {
+    font-weight: 500;
+}
